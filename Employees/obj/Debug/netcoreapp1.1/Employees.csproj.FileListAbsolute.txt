@@ -1,0 +1,11 @@
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\bin\Debug\netcoreapp1.1\Employees.deps.json
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\bin\Debug\netcoreapp1.1\Employees.runtimeconfig.json
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\bin\Debug\netcoreapp1.1\Employees.runtimeconfig.dev.json
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\bin\Debug\netcoreapp1.1\Employees.dll
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\bin\Debug\netcoreapp1.1\Employees.pdb
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\obj\Debug\netcoreapp1.1\Employees.csprojResolveAssemblyReference.cache
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\obj\Debug\netcoreapp1.1\Employees.csproj.CoreCompileInputs.cache
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\obj\Debug\netcoreapp1.1\Employees.AssemblyInfoInputs.cache
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\obj\Debug\netcoreapp1.1\Employees.AssemblyInfo.cs
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\obj\Debug\netcoreapp1.1\Employees.dll
+C:\Users\rouzbeh.majlessi\Documents\Visual Studio 2017\Projects\Employees\Employees\obj\Debug\netcoreapp1.1\Employees.pdb
