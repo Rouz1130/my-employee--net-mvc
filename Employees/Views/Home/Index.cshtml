@@ -12,6 +12,7 @@
     <div class="gird grid-pad">
         <div class="col-sm-1-4">
             <div class="module employee">
+
                 @foreach (var item in Model.Skip(2).Take(1))
                 {
                     <h6>@Html.DisplayFor(modelItem => item.FirstName)&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;&nbsp;@Html.ActionLink("details", "Details", "Employees", new { id = "4" })&nbsp;</h6>
