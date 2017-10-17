@@ -16,7 +16,10 @@
             <th>
                 @Html.DisplayNameFor(model => model.LastName)
             </th>
-            <th></th>
+            <th>
+
+            </th>
+            
         </tr>
     </thead>
     <tbody>
@@ -25,14 +28,15 @@
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.FirstName)
+                
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.LastName)
                 </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                    <a asp-action="Delete" class="glyphicon glyphicon-trash" asp-route-id="@item.ID"></a>
+                <td >
+                    <a c asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a  asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                    <a  asp-action="Delete" class="glyphicon glyphicon-trash" asp-route-id="@item.ID"></a>
                 </td>
             </tr>
         }
