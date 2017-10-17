@@ -7,68 +7,62 @@
 <p align="center">Top Employees</p>
 
 
- <div id="containerIntro" align="center">
+<div id="containerIntro" align="center">
 
     <div class="gird grid-pad">
         <div class="col-sm-1-4">
             <div class="module employee">
-
                 @foreach (var item in Model.Skip(2).Take(1))
                 {
-                    <h6>@Html.DisplayFor(modelItem => item.FirstName)&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;&nbsp;@Html.ActionLink("details", "Details", "Employees", new { id = "4" })&nbsp;</h6>
-                    
+
+                    <h6><a class="at" asp-controller="Employees" asp-action="Details" asp-route-id="4">&nbsp;@Html.DisplayFor(modelItem => item.FirstName)&nbsp;&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;</a></h6>
+
+
+
+
+
 
                 }
             </div>
         </div>
     </div>
-    &nbsp;
 
     <div class="gird grid-pad">
         <div class="col-sm-1-4">
             <div class="module employee">
-
-
                 @foreach (var item in Model.Skip(3).Take(1))
                 {
-                    <h6>@Html.DisplayFor(modelItem => item.FirstName)&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;&nbsp;@Html.ActionLink("details", "Details", "Employees", new { id = "5" })&nbsp;</h6>
+                    <h6><a class="at" asp-controller="Employees" asp-action="Details" asp-route-id="5">&nbsp;@Html.DisplayFor(modelItem => item.FirstName)&nbsp;&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;</a></h6>
 
                 }
             </div>
         </div>
     </div>
-     &nbsp;
 
     <div class="gird grid-pad">
         <div class="col-sm-1-4">
             <div class="module employee">
-
-
                 @foreach (var item in Model.Skip(4).Take(1))
                 {
-                    <h6>@Html.DisplayFor(modelItem => item.FirstName)&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;&nbsp;@Html.ActionLink("details", "Details", "Employees", new { id = "6" })&nbsp;</h6>
-                    
+                    <h6><a class="at"  asp-controller="Employees" asp-action="Details" asp-route-id="6">&nbsp;@Html.DisplayFor(modelItem => item.FirstName)&nbsp;&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;</a></h6>
+
 
                 }
             </div>
         </div>
     </div>
-     &nbsp;
+
 
     <div class="gird grid-pad">
         <div class="col-sm-1-4">
             <div class="module employee">
-
-
                 @foreach (var item in Model.Skip(5).Take(1))
                 {
-                    <h6>@Html.DisplayFor(modelItem => item.FirstName)&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;&nbsp;@Html.ActionLink("details", "Details", "Employees", new { id = "7" })&nbsp;</h6>
-                    
+                    <h6><a class="at"  asp-controller="Employees" asp-action="Details" asp-route-id="6">&nbsp;@Html.DisplayFor(modelItem => item.FirstName)&nbsp;&nbsp;@Html.DisplayFor(modelItem => item.LastName)&nbsp;</a></h6>
+
 
                 }
             </div>
         </div>
-      </div>
-     &nbsp;
     </div>
-  
+</div>

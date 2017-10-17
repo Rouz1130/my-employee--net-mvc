@@ -1,5 +1,5 @@
 ﻿/*alignt employees on one line*/
-#containerIntro h6 {
+#containerIntro h6, .at{
     display: inline-flex;
     vertical-align: top;
     font-family: 'Open Sans', sans-serif;
@@ -37,13 +37,13 @@
     box-sizing: border-box;
 }
 
-h6 {
+h6,a {
     text-align: center;
     margin-bottom: 0;
 
 }
 
-h6 {
+h6 , a{
     position: relative;
 }
 
@@ -61,15 +61,15 @@ h6 {
     color: #eee;
     max-height: 80px;
     min-width: 80px;
-    background-color: #607D8B;
+    background-color: #97a7a7;
     border-radius: 20px;
 }
 
-.module:hover {
+    .module:hover {
         background-color: #EEE;
         cursor: pointer;
-        color: #607d8b;
-}
+        color: #97a7a7;
+    }
 
 .container h4 , h5 {
     padding: 5px 10px;
@@ -82,7 +82,7 @@ h6 {
 }
 
     .container h4:visited, h4:link {
-        color: #607D8B;
+        color: #97a7a7
     }
 
     .container h4:hover {
@@ -94,6 +94,12 @@ h6 {
         color: #039be5;
     }
 
+    dt, dd{
+        font-size: 20px;
+    }
+    th, td {
+        font-size: 20px;
+    }
 
 
 /*// columns*/
