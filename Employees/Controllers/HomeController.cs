@@ -2,15 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Employees.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Employees.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly EmployeesContext _context;
+
+        public HomeController(EmployeesContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        // GET: Employees
+        public async Task<IActionResult> Index()
+        {
+
+            return View(await _context.Employee.ToListAsync());
         }
 
         public IActionResult About()

@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
+using Employees.Models;
 
 namespace Employees
 {
@@ -29,6 +31,9 @@ namespace Employees
         {
             // Add framework services.
             services.AddMvc();
+
+            services.AddDbContext<EmployeesContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("EmployeesContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
